@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-hashdata-document-theme",
+  "name": "gitbook-plugin-theme-hashdata-document",
   "description": "GitBook theme for HashData document",
   "main": "./index.js",
   "version": "1.0.0",
