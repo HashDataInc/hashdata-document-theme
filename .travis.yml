@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-  - "8"
+- '8'
+deploy:
+  provider: npm
+  email: wang@hashdata.cn
+  api_key:
+    secure: IlxNqfg3IHbPToDr384LvLuv5zr+NZFzNChYOqwcB+KyUzsn5zOfLpGL7+X8xbv2MR+gNQTjU/EYWIe9AHopGaG43770V+krxIDhCH+Nzi5Z7T7rWD+ya6ku9WbGqApPHyKofulKOeHPapZvQQDUo5viCYn6vDe1iKv/rYUHMlvIj6cvIYfviRX/iilch8ckP1QI2W+Nem4ed5sgWIV4EOA9DAEGqHeOAtEccBVmmVcYY5EBAKB3fLk71LmGnCZ/M6zz7DBdwrYc43gzHgYs7EJygOU0wikVSGPKZgt1RId3RKfZs5EYEcRkpLYX7QPR72u6h3wjozffSTvjc6AfSoIFiYLEXI2Sd1PnCvW2tay7k45jtEOOVGACTzya9eLWYnbCXZyfCmzcX5o+v7pzxnj6pDmq1VvO/bFlptV5UfEjLDiu+JHPwyiyaYOMIR7bgmJT+7F2PRI7TCdGvTvqGDnnOeWljLxDjbfOLbZ4ZkBPFhuQfDo866/gjW3I/xpUYR0C4SoLsAZG9NtYiUGM5tzkNcKF62U0/ya2Kdo5znWzzos3iLYitaTqA/lg6oweOcMEAFbKcANR3PsBdmuKG1AUwR6EqDchmj5EgKVG3X8Ly38G7RiQkPx700pSP1KxjDpfJY6nvygg08CgOAB9qhW7E3AE19M0ZQYSAGaihbk=
