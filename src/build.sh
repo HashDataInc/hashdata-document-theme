@@ -28,3 +28,8 @@ cp -R node_modules/font-awesome/fonts/ _assets/website/fonts/fontawesome/
 mkdir -p _assets/website/images
 cp node_modules/gitbook-logos/output/favicon.ico _assets/website/images/
 cp node_modules/gitbook-logos/output/apple-touch-icon-152.png _assets/website/images/apple-touch-icon-precomposed-152.png
+cp src/css/hashdata.css _assets/website/
+cp images/logo.png _assets/website/images/
+cp images/footer-logo.png _assets/website/images/
+cp images/footer-police.png _assets/website/images/
+cp images/qrcode.png _assets/website/images/
