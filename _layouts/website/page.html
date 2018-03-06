@@ -15,8 +15,14 @@
 {% endblock %}
 
 {% block javascript %}
+    
+    {% block bootstrap_js %}
+        <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.slim.min.js"></script>
+        <script src="//cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    {% endblock %}
     <script src="{{ "gitbook.js"|resolveAsset }}"></script>
     <script src="{{ "theme.js"|resolveAsset }}"></script>
+
     {% for resource in plugins.resources.js %}
         {% if resource.url %}
         <script src="{{ resource.url }}"></script>
@@ -27,6 +33,7 @@
 {% endblock %}
 
 {% block body %}
+{% include "website/nav.html" %}
 <div class="book">
     <div class="book-summary">
         {% block book_sidebar %}
@@ -81,4 +88,5 @@
         });
     </script>
 </div>
+{% include "website/footer.html" %}
 {% endblock %}

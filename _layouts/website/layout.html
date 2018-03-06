@@ -23,6 +23,15 @@
         <link rel="stylesheet" href="{{ style|resolveFile }}">
         {% endif %}
     {% endfor %}
+    
+    {% block bootstrap_css %}
+        <link rel="stylesheet" 
+            href="//cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    {% endblock %}
+
+    {% block cuav_css %}
+        <link rel="stylesheet" href="{{ 'hashdata.css'|resolveAsset }}">
+    {% endblock %}
 {% endblock %}
 
 {% block body %}{% endblock %}

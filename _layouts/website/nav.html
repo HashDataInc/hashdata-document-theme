@@ -1,0 +1,49 @@
+{% block nav %}
+<div id="header">
+        <header class="navbar navbar-static-top navbar-fixed-top" id="top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.hashdata.cn">
+                        <img alt="Brand" src="{{ "images/logo.png"|resolveAsset }}">
+                    </a>
+                </div>
+                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="nav-index">
+                            <a href="http://www.hashdata.cn">首页</a>
+                        </li>
+                        <li id="nav-product">
+                            <a href="http://www.hashdata.cn/product">产品</a>
+                        </li>
+                        <li id="nav-case">
+                            <a href="http://www.hashdata.cn/case">案例</a>
+                        </li>
+                        <li id="nav-blog">
+                            <a href="http://www.hashdata.cn/blog">博客</a>
+                        </li>
+                        <li id="nav-doc" class="active">
+                            <a href="http://www.hashdata.cn/docs">文档</a>
+                        </li>
+                        <li class="dropdown" id="nav-aboutus">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">酷克数据<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="http://www.hashdata.cn/#block-aboutus-img">关于我们</a></li>
+                                <li><a href="http://www.hashdata.cn/aboutus">加入我们</a></li>
+                                <li> <a href="http://www.greenplum.net.cn/" target=_blank>社区</a></li>
+                            </ul>
+                        </li>
+                        <li class="try">
+			    <a target="_blank" href="https://appcenter.qingcloud.com/apps/app-iwacxg9z">点击试用</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+{% endblock %}
