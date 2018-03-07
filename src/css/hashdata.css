@@ -8,7 +8,7 @@
 }
 @media screen and (min-width: 768px) {
     #m-footer {
-        display: none;
+        display: none !important;
     }
 
 	/* begin css reset */
