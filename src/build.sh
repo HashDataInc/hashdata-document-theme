@@ -33,3 +33,4 @@ cp images/logo.png _assets/website/images/
 cp images/footer-logo.png _assets/website/images/
 cp images/footer-police.png _assets/website/images/
 cp images/qrcode.png _assets/website/images/
+cp images/footer-bg.png _assets/website/images/

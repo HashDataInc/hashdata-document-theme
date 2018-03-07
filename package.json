@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-theme-hashdata-document",
   "description": "GitBook theme for HashData document",
   "main": "./index.js",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "engines": {
     "gitbook": ">=3.0.0"
   },
