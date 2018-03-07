@@ -2,10 +2,6 @@
  * base.css
  * Common styles for css reset, the header, footer, and etc.
  */
-@font-face {
-	font-family: HYQiHei-FZS;
-	src: url('../fonts/700.otf');
-}
 @media screen and (min-width: 768px) {
     #m-footer {
         display: none !important;
@@ -14,7 +10,7 @@
 	/* begin css reset */
 	/* *, body, p, div, h1, h2, h3, h4, h5, h6 { */
 	#footer * {
-	    font-family: HYQiHei-EZS, Microsoft Yahei;
+	    font-family:  Microsoft Yahei;
 	}
 	/* end css reset */
 	#header a{
@@ -111,7 +107,7 @@
 	    padding: 10px;
 	}
 	#footer-2 p{
-	       font-family:HYQiHei-EZS;
+	       font-family:Microsoft Yahei;
 	       font-size:12px;
 	       color:rgba(255,255,255,0.58);
 	       text-align: center;
@@ -149,7 +145,7 @@
 	#footer-1 p.title{
 		color: #fff;
 		font-size: 14px;
-		font-family: HYQiHei-FZS, Microsoft Yahei;
+		font-family:  Microsoft Yahei;
 		line-height: 22px;
 		margin: 40px 0 20px;
 	}
@@ -237,7 +233,7 @@
     }
     #m-index li{
         list-style: none;
-        font-family:HYQiHei-EZS;
+        font-family:Microsoft Yahei;
         font-size:16px;
         float: left;
         margin-top: 25px;
@@ -282,12 +278,12 @@
     #m-footer p{
         margin: 0;
         font-size: 12px;
-        font-family:HYQiHei-EZS;
+        font-family:Microsoft Yahei;
         color:rgba(255,255,255,0.58);
         line-height:30px;
     }
     #m-footer p.title{
-        font-family:HYQiHei-FZS;
+        font-family:Microsoft Yahei;
         font-size:14px;
         color:#ffffff;
         margin-bottom: 12px;
